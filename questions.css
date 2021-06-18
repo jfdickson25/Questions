@@ -6,6 +6,7 @@ html, body {
 input {
     grid-row: 3;
     grid-column: 4/10;
+    font-size: 18pt;
 }
 
 .content {
@@ -54,6 +55,21 @@ input {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+.redirect {
+    grid-column: 10/12;
+    grid-row: 2;
+}
+
+.redirectBtn {
+    font-size: 21pt;
+    color: white;
+    background-color: #E8A87C;
+    border-radius: 10px;
+    border-width: 0;
+    z-index: 1;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
 .question {
     grid-column: 5/9;
     grid-row: 7/10;
@@ -62,5 +78,6 @@ input {
     border-radius: 10px;
     text-align: center;
     padding: 15px;
+    font-size: 14pt;
 }
 
