@@ -1,0 +1,66 @@
+html, body {
+    padding: 0px;
+    margin: 0px;
+}
+
+input {
+    grid-row: 3;
+    grid-column: 4/10;
+}
+
+.content {
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    background-color: #41B3A3;
+}
+
+.mark {
+    grid-column: 1/13;
+    grid-row: 4;
+    text-align: center;
+    z-index: 1;
+    font-size: 64pt;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    font-weight: bold;
+}
+
+.questionBtn {
+    grid-column: 5/9;
+    grid-row: 5;
+    font-size: 21pt;
+    color: white;
+    background-color: #E27D60;
+    border-radius: 10px;
+    border-width: 0;
+    z-index: 1;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.addQuestionBtn {
+    grid-column: 5/9;
+    grid-row: 5;
+    font-size: 21pt;
+    color: white;
+    background-color: #E27D60;
+    border-radius: 10px;
+    border-width: 0;
+    z-index: 1;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.question {
+    grid-column: 5/9;
+    grid-row: 7/10;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    padding: 15px;
+}
+
